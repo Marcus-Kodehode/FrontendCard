@@ -1,0 +1,27 @@
+@import "card.css";
+
+:root {
+  --primary-color: #a8d5ba; /* Pastel Green */
+  --secondary-color: #ffd8a8; /* Pastel Orange */
+  --tertiary-color: #a8d8f0; /* Pastel Blue */
+
+  --black-color: #2e2e2e; /* Soft Black */
+  --white-color: #ffffff; /* White */
+  --contrast-color: #f7a8a8; /* Pastel Red */
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--black-color);
+  color: var(--white-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+}
