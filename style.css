@@ -3,14 +3,15 @@
 
 /* Definerer root-variabler for enkel fargehåndtering */
 :root {
-    --primary-color: #4e73df; /* Dyp blå - brukes som hovedfarge */
-    --secondary-color: #ff7f50; /* Koralloransje - brukes for sekundære aksenter */
-    --tertiary-color: #f9a825; /* Senapsgul - brukes for tertiære aksenter */
-  
-    --black-color: #212121; /* Mørk grå - bakgrunnsfarge */
-    --white-color: #f1f1f1; /* Myk hvit - tekstfarge */
-    --contrast-color: #ff6f61; /* Korallrød - brukes for høykontrast elementer */
-  }
+  --primary-color: #008080; /* Teal - brukes som hovedfarge */
+  --secondary-color: #b39ddb; /* Lavendel - brukes for sekundære aksenter */
+  --tertiary-color: #fbc02d; /* Mørk gul - brukes for tertiære aksenter */
+
+  --black-color: #303030; /* Mørkere grå - bakgrunnsfarge */
+  --white-color: #333333; /* Mørkere tekstfarge */
+  --contrast-color: #f4511e; /* Dempet oransje - brukes for høykontrast elementer */
+}
+
   
 
 /* Global reset: Fjerner standard marger, padding og setter box-sizing */
