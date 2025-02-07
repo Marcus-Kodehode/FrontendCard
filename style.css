@@ -1,27 +1,31 @@
+/* Importerer ekstern CSS-fil for kortstiler */
 @import "card.css";
 
+/* Definerer root-variabler for enkel fargehåndtering */
 :root {
-  --primary-color: #a8d5ba; /* Pastel Green */
-  --secondary-color: #ffd8a8; /* Pastel Orange */
-  --tertiary-color: #a8d8f0; /* Pastel Blue */
+  --primary-color: #a8d5ba; /* Pastellgrønn - brukes som hovedfarge */
+  --secondary-color: #ffd8a8; /* Pastelloransje - brukes for sekundære aksenter */
+  --tertiary-color: #a8d8f0; /* Pastellblå - brukes for tertiære aksenter */
 
-  --black-color: #2e2e2e; /* Soft Black */
-  --white-color: #ffffff; /* White */
-  --contrast-color: #f7a8a8; /* Pastel Red */
+  --black-color: #2e2e2e; /* Myk svart - bakgrunnsfarge */
+  --white-color: #ffffff; /* Hvit - tekstfarge */
+  --contrast-color: #f7a8a8; /* Pastellrød - brukes for høykontrast elementer */
 }
 
+/* Global reset: Fjerner standard marger, padding og setter box-sizing */
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+  margin: 0; /* Fjerner margin */
+  padding: 0; /* Fjerner padding */
+  box-sizing: border-box; /* Sørger for at padding og kanter ikke påvirker elementets bredde/høyde */
 }
 
+/* Stilsetting for body-elementet */
 body {
-  background-color: var(--black-color);
-  color: var(--white-color);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  min-height: 100vh;
+  background-color: var(--black-color); /* Setter bakgrunnen til myk svart */
+  color: var(--white-color); /* Setter tekstfargen til hvit for bedre lesbarhet */
+  display: flex; /* Bruker flexbox for layout */
+  justify-content: center; /* Sentrerer innholdet horisontalt */
+  align-items: center; /* Sentrerer innholdet vertikalt */
+  flex-direction: column; /* Stabler elementer vertikalt */
+  min-height: 100vh; /* Sørger for at body dekker hele viewport-høyden */
 }
