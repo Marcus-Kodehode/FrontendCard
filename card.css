@@ -34,10 +34,12 @@
 .card-text-container h3 {
     font-size: 22px; /* Setter skriftstørrelsen på overskriften */
     text-align: center; /* Sentrerer overskriften horisontalt */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 /* Stilsetting for paragrafen i tekstområdet */
 .card-text-container p {
     font-weight: bolder; /* Gjør teksten fetere */
     text-align: center; /* Sentrerer teksten horisontalt */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
