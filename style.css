@@ -4,10 +4,10 @@
 /* Definerer root-variabler for enkel fargehåndtering */
 :root {
   --primary-color: #008080; /* Teal - brukes som hovedfarge */
-  --secondary-color: #7a63b3; /* Mer lilla, fortsatt en dempet lavendel */
+  --secondary-color: #A291CA; /* Mer lilla, fortsatt en dempet lavendel */
   --tertiary-color: #fbc02d; /* Mørk gul - brukes for tertiære aksenter */
 
-  --black-color: #151515; /* Mer mot svart, for bedre kontrast på bakgrunn */
+  --black-color: #0A0A0A; /* Mer mot svart, for bedre kontrast på bakgrunn */
   --white-color: #1c1c1c; /* Nær svart tekstfarge for god lesbarhet */
   --contrast-color: #f4511e; /* Dempet oransje - brukes for høykontrast elementer */
 }
